@@ -31,3 +31,19 @@ body {
     text-wrap: balance;
   }
 }
+
+.button-start {
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 50px; /* pill shape */
+    border: 2px solid white;
+    color: white;
+    text-decoration: none;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.3);
+}
+
+.button-start:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.5);
+}
