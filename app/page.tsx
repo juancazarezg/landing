@@ -60,7 +60,7 @@ export default function App() {
                         baseHue={120}
                         rangeSpeed={0.3}
                         className="flex items-center flex-col justify-center px-2 md:px-10  py-4 w-full h-full">
-                        <Image src='logo.png' alt='juan czrz logo' width={200} height={60} />
+                        <Image src='/logo.png' alt='juan czrz logo' width={200} height={60} />
                         <button onClick={handlePlayPause} className='button-start'>Press to start</button>
                     </Vortex>
                 </ParallaxLayer>
@@ -116,7 +116,7 @@ export default function App() {
                         alignItems: 'center',
                         justifyContent: 'center',
                     }}>
-                    <Image src={'end.png'} width={1500} height={800} alt='end'/>
+                    <Image src={'/end.png'} width={1500} height={800} alt='end'/>
                 </ParallaxLayer>
             </Parallax>
         </div>
