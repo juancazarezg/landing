@@ -76,7 +76,7 @@ export default function App() {
                         justifyContent: 'center',
                     }}>
                     <div style={{ boxShadow: '0 0 100px 10px rgba(0, 191, 99, 0.3)', cursor: 'pointer', borderRadius: '15px', border: '5px solid #00bf63' }}>
-                        <video ref={videoRef} loop style={{ maxWidth: '90vw', borderRadius: '10px' }} >
+                        <video ref={videoRef} loop style={{ maxWidth: '90vw', borderRadius: '10px' }} webkit-playsinline>
                             <source src="videin.mp4" type="video/mp4" />
                         </video>
                     </div>
